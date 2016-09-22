@@ -1,0 +1,135 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width: 375px) {
+  h1 {
+    font-size: 1.3em; } }
+
+@media only screen and (min-width: 425px) {
+  h1 {
+    font-size: 1.4em; } }
+
+@media only screen and (min-width: 480px) {
+  h1 {
+    font-size: 1.4em; }
+  section {
+    width: 480px;
+    margin-top: 9em; }
+  section span.planing {
+    margin-left: 1em;
+    margin-bottom: 0; }
+  section span.pool {
+    margin-right: 1em;
+    float: right; } }
+
+@media only screen and (min-width: 540px) and (orientation: portait) {
+  h1 {
+    font-size: 1.6em; }
+  section {
+    width: 530px;
+    margin-top: 15em; }
+  div.logo {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 198px;
+    height: 46px;
+    background-image: url("../img/logo/logo_198.png");
+    background-repeat: no-repeat;
+    background-position: center center; } }
+
+@media only screen and (max-height: 375px) and (orientation: landscape) {
+  section {
+    margin-top: 4em; }
+  div.logo {
+    bottom: 8%;
+    right: 8%; } }
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 1.8em; }
+  section {
+    width: 630px; } }
+
+@media only screen and (min-width: 1025px) {
+  h1 {
+    font-size: 2em; }
+  section {
+    width: 660px;
+    margin-top: 10em; } }
+
+@media only screen and (min-width: 1400px) {
+  h1 {
+    font-size: 2.5em; }
+  section {
+    width: 870px;
+    margin-top: 10em; }
+  div.logo {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 296px;
+    height: 69px;
+    background-image: url("../img/logo/logo_296.png");
+    background-repeat: no-repeat;
+    background-position: center center; } }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1025px) {
+  html {
+    background: url(../img/bg/1280.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media only screen and (min-width: 1281px) {
+  html {
+    background: url(../img/bg/1400.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media only screen and (min-width: 1401px) {
+  html {
+    background: url(../img/bg/1680.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media only screen and (min-width: 1681px) {
+  html {
+    background: url(../img/bg/1920.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media only screen and (min-width: 1921px) {
+  html {
+    background: url(../img/bg/2560.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media only screen and (min-width: 2561px) {
+  html {
+    background: url(../img/bg/3840.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
